@@ -1,0 +1,20 @@
+/* footer style */
+footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #efefef;
+    margin-top: 250px;
+    padding: 100px;
+    flex-direction: row;
+ }
+ /* slut */
+
+ /* responsive  */
+@media (max-width:1100px ) {
+    footer{
+        flex-wrap: wrap;
+    }
+ }
+
+ /* responsiv design slut */

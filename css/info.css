@@ -1,0 +1,30 @@
+/* .container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} */
+
+.banner{
+    flex:4;
+    display: flex;
+    margin-top: 100px;
+    img{
+        width: 100%;
+    }
+}
+
+.textcontent{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 600px;
+    /* border: 2px solid black; */
+    margin:0 auto;
+    h1{
+        margin:50px 0;
+    }
+}
+
+
+
+

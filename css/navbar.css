@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    /* loga och navbar hamnar bredvid varandra */
+    justify-content: space-around; 
+    /* koden ovan skapar distansen mellan loga och navbar då loga är ett eget flex item och navbar ett annat flexitem */
+    margin-top: 80px;
+    /* border-bottom: 1px solid black; */
+ }
+
+ nav>ul{
+    display: flex;
+    justify-content: flex-end;
+    /* projekt info med mera hamnar bredvid varandra */
+ }
+ 
+ 
+ nav>ul>li{
+    margin: 8px;
+ }
+
+ /* responsive navbar */
+
+@media (max-width:500px ) {
+   header{
+       flex-wrap: wrap;
+   }
+}
+
+/* slut */
+
+#position:hover{
+   background-color: var(--primary-grey);
+}
+
+#position{
+   transition: background-color 1s ease-out;
+}
+ 

@@ -1,0 +1,40 @@
+/* style på conatiner där alla element på hemsidan ligger i */
+.navbarcontainer{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+/* .container slut */
+
+/*  style på hela containern där bilderna ligger i */
+.maincontent{
+    flex:4;
+    display: flex;
+    margin-top: 100px;
+    h2{
+        text-align: center;
+    }
+    img{
+        width: 100%;
+    }
+}
+/* .second slut */
+
+/* ser till att bilderna inte ligger ända ut i kanten */
+.maincontent>div{
+    padding: 10px;
+}
+/* slut */
+
+
+/* responsive  */
+@media (max-width:900px ) {
+    .maincontent{
+        flex-direction: column;
+    }
+ }
+
+ /* responsiv design slut */
+
+ 
+ 

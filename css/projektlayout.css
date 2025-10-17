@@ -1,0 +1,59 @@
+/* .container{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+} */
+
+.herocontent{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.hero{
+    flex: 4;
+    display: flex;
+    margin: 4%;
+   
+    img{
+        max-width:100%;
+    }
+    justify-content:center;
+}
+
+/* Layoyt för bilderna under hero bilden */
+.secondimagecontent , .thirdimagecontent, .fourthimagecontent {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    img{
+        max-width: 100%;
+    }
+    picture{
+        max-width: 40%;
+    }
+}
+
+.projektbeskrivning1{
+    /* border: 2px solid red; */
+    max-width: 50%;
+    margin: 10px;
+    h3{
+        margin: 30px 0;
+    }
+    background-color: var(--primary-pink);
+}
+
+
+@media (max-width:920px ) {
+    .herocontent , .secondimagecontent , .thirdimagecontent , .fourthimagecontent{
+        flex-direction: column;
+        picture{
+            max-width: 100%;
+        }
+    }
+    .projektbeskrivning1{
+        max-width: 100%;
+    }
+ }
+
+ 

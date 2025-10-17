@@ -1,0 +1,11 @@
+nav, h1, h2, h3, h4, h5, p,  footer, a, #text, #formulartext, .loga{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+#size, h1{
+    font-size: 32px;
+}
+
+
+

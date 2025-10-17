@@ -1,0 +1,18 @@
+#text{
+    text-align: center;
+    margin: 100px;
+}
+    
+
+.formcontent{
+    margin-top: 100px;
+}
+
+.mb-3{
+    margin: 50px;
+}
+
+/* Besökta länkar, specifiteten av selektorn är högre än bootstraps */
+header a:visited{
+    color: #551a8b; 
+}
